@@ -24,7 +24,8 @@ worth two in the bush.
 
 而有了 ChatGPT 的加持，你会得到想要的，并且更加准确的结果:  
 
-![image](https://github.com/inannan423/gpt-translate/assets/83146544/c71ebf46-88f4-44ee-be47-d62b9e63f921)
+![image](https://github.com/inannan423/gpt-translate/assets/83146544/6515d8de-c179-4296-8dfc-37baf3b50879)
+
 
 ## Features
 
