@@ -52,6 +52,12 @@ worth two in the bush.
 - 启动项目: `pnpm dev`。
 - 访问 `localhost:3000`。
 
+## 技术栈
+
+- Next.js
+- Tailwind CSS
+- [shadcn UI](https://ui.shadcn.com/)
+
 ## 支持我
 
 请给我一个 star ⭐️。
