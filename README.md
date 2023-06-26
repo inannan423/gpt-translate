@@ -1,38 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GPT**Translate**
 
-## Getting Started
+> ⚡ 基于 ChatGPT 的快捷翻译
 
-First, run the development server:
+## 为什么用 ChatGPT?
+
+有那么多的翻译 API，为什么要用 ChatGPT 呢？  
+
+不知道你有没有遇到下面的情况，阅读 PDF 时，想翻译一下某一段话，但是 PDF 拷贝的内容是这样的:  
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+This is a Example text which 
+is copied from a PDF file.A bird in the hand is 
+worth two in the bush.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+它是被截断的！把它复制到翻译软件里，你会得到这样的结果:  
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+这是一个示例文本
+是从PDF文件中复制的。手中的一只鸟是
+价值两美元。
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/chat.ts`.
+而有了 ChatGPT 的加持，你会得到想要的，并且更加准确的结果:  
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 使用方法
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 在线使用
 
-## Learn More
+访问本项目的 [部署版本](https://gpt-translate.netlify.app/)。
 
-To learn more about Next.js, take a look at the following resources:
+- 点击 `settings`。
+- 填入你的 API 。最好使用被代理的 API ，因为原生 openai API 在国内无法访问。代理方式可以参考 [chatgptProxyAPI](https://github.com/x-dr/chatgptProxyAPI)。
+- 填入你的 API Key 。没有的话可以去 [openai](https://platform.openai.com/overview) 申请。或者某橙色软件，比较 cheap。
+- 点击 `Save changes`。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> 填入的 API 和 API Key 会被保存在你的浏览器本地 localStorage 中，不会上传到服务器。因此请放心使用。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 自己部署
 
-## Deploy on Vercel
+- Fork 并克隆本项目。
+- 安装依赖: `pnpm install`。
+- 启动项目: `pnpm dev`。
+- 访问 `localhost:3000`。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 支持我
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+请给我一个 star ⭐️。
