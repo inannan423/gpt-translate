@@ -18,5 +18,6 @@
         "react"
     ],
     "rules": {
+        "no-extra-boolean-cast": "off"
     }
 }

@@ -9,7 +9,7 @@ const InputArea = ({
 }: InputAreaProps): JSX.Element => {
   return (
         <textarea
-            className={'w-full h-full p-2 bg-transparent outline-none resize-none'}
+            className={'w-full min-h-[200px] h-full p-2 bg-transparent outline-none resize-none'}
             placeholder={'键入内容'}
             onChange={(e) => {
               onContentChange(e.target.value)
