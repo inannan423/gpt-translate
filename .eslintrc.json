@@ -15,7 +15,8 @@
         "project": "./tsconfig.json"
     },
     "plugins": [
-        "react"
+        "react",
+        "next"
     ],
     "rules": {
         "no-extra-boolean-cast": "off"
