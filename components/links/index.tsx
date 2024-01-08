@@ -122,8 +122,9 @@ const Links = (): JSX.Element => {
                                 }}
                             />
                         </div>
-                        <div className={'text-[1px] text-gray-600'}>
-                            原 API 在国内无法访问 ，因此可以使用代理，填写 API 代理地址，如：https://api.yourdomain.com/v1，如果没有可填：https://api.openai.com/v1，获取代理可参考 <a className={'text-gray-400'} href={'https://github.com/x-dr/chatgptProxyAPI'} target={'_blank'} rel="noreferrer">这个项目</a>
+                        <div className={'text-sm text-gray-600'}>
+                            {/*原 API 在国内无法访问 ，因此可以使用代理，填写 API 代理地址，如：https://api.yourdomain.com/v1，如果没有可填：https://api.openai.com/v1，获取代理可参考 <a className={'text-gray-400'} href={'https://github.com/x-dr/chatgptProxyAPI'} target={'_blank'} rel="noreferrer">这个项目</a>*/}
+                            Original API cannot be accessed in China, so you can use a proxy. Fill in the API proxy address, such as: <b>https://api.yourdomain.com/v1</b>, if not, you can fill in: <b>https://api.openai.com/v1</b>, you can refer to <a className={'text-gray-400'} href={'https://github.com/x-dr/chatgptProxyAPI'} target={'_blank'} rel="noreferrer">this project</a> to get the proxy.
                         </div>
                         <div className="grid grid-cols-4 items-center gap-4">
                             <Label htmlFor="username" className="text-right">
@@ -138,11 +139,13 @@ const Links = (): JSX.Element => {
                                 }}
                             />
                         </div>
-                        <div className={'text-[1px] text-gray-600'}>
-                            填写 API Key，如：sk-1234567890，必填，可到 <a className={'text-gray-400'} href={'https://platform.openai.com/overview'} target={'_blank'} rel="noreferrer">https://platform.openai.com/overview</a> 查看
+                        <div className={'text-sm text-gray-600'}>
+                            {/*填写 API Key，如：sk-1234567890，必填，可到 <a className={'text-gray-400'} href={'https://platform.openai.com/overview'} target={'_blank'} rel="noreferrer">https://platform.openai.com/overview</a> 查看*/}
+                            Please fill in the API Key, such as: <b>sk-1234567890</b>, required, you can check it at <a className={'text-gray-400'} href={'https://platform.openai.com/overview'} target={'_blank'} rel="noreferrer">https://platform.openai.com/overview</a>
                         </div>
-                        <div className={'text-[1px] text-gray-600'}>
-                            以上内容均存储至浏览器本地，不会上传至服务器
+                        <div className={'text-sm text-gray-600'}>
+                            {/*以上内容均存储至浏览器本地，不会上传至服务器*/}
+                            The above content is stored in the browser locally and will not be uploaded to the server.
                         </div>
                     </div>
                     <DialogFooter>
