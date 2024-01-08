@@ -124,7 +124,7 @@ const Links = (): JSX.Element => {
                         </div>
                         <div className={'text-sm text-gray-600'}>
                             {/*原 API 在国内无法访问 ，因此可以使用代理，填写 API 代理地址，如：https://api.yourdomain.com/v1，如果没有可填：https://api.openai.com/v1，获取代理可参考 <a className={'text-gray-400'} href={'https://github.com/x-dr/chatgptProxyAPI'} target={'_blank'} rel="noreferrer">这个项目</a>*/}
-                            Original API cannot be accessed in China, so you can use a proxy. Fill in the API proxy address, such as: <b>https://api.yourdomain.com/v1</b>, if not, you can fill in: <b>https://api.openai.com/v1</b>, you can refer to <a className={'text-gray-400'} href={'https://github.com/x-dr/chatgptProxyAPI'} target={'_blank'} rel="noreferrer">this project</a> to get the proxy.
+                            Original API may cannot be accessed, so you can use a proxy. Fill in the API proxy address, such as: <b>https://api.yourdomain.com/v1</b>, if not, you can fill in: <b>https://api.openai.com/v1</b>, you can refer to <a className={'text-gray-400'} href={'https://github.com/x-dr/chatgptProxyAPI'} target={'_blank'} rel="noreferrer">this project</a> to get the proxy.
                         </div>
                         <div className="grid grid-cols-4 items-center gap-4">
                             <Label htmlFor="username" className="text-right">
